@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/FloralWhite">
+
+
+    <include
+        android:id="@+id/included_appbar3"
+        layout="@layout/app_bar"></include>
+
+
+    <ScrollView
+        android:id="@+id/mainScrollLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_below="@+id/included_appbar3"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:id="@+id/mainlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvCname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Customer Name"
+                android:textColor="@color/teal"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/eName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none" />
+
+            <TextView
+                android:id="@+id/tvCnumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/number"
+                android:textColor="@color/teal"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vehicle Number"
+                android:textColor="@color/teal"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etVehicaln"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView1"
+                android:ems="10"
+                android:inputType="none" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_below="@+id/etVehicaln"
+                android:text="Vehicle Description"
+                android:textColor="@color/teal"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etVehicalm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/textView2"
+                android:ems="10"
+                android:inputType="none" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etVehicalm"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/addimg22" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/b_updt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/button_style"
+        android:gravity="center"
+        android:text="Update"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/fab_material_grey_500"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Parkager</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">Parkager</string>
+    <string name="desc1">CHECK IN</string>
+    <string name="desc2">CHECK OUT</string>
+    <string name="but1">Cancel</string>
+    <string name="but2">Update</string>
+    <string name="number">Mobile Number</string>
+    <string name="lol">Customer Name</string>
+    <string name="Clock">Clock</string>
+    <string name="title_activity_check_out">CheckOut</string>
+    <string name="title_activity_check_in">CheckIn</string>
+    <string name="title_activity_data_table">DataTable</string>
+    <string name="title_activity_navigation_drawer_fragment">NavigationDrawerFragment</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_check_inn">CheckIn</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="String_open">Open</string>
+    <string name="String_closed">Closed</string>
+    <string name="title_activity_search_by_name">SearchByName</string>
+    <string name="dummy">DummyTest</string>
+    <string name="title_activity_search_result">SearchResult</string>
+    <string name="title_activity_after_item_click">AfterItemClick</string>
+    <string name="title_activity_reports">Reports</string>
+    <string name="title_activity_about_dev">AboutDev</string>
+    <string name="abtme">Shubham Yadav, A Second Year student currently persuing his B.Tech(Hons) in LPU, Developed "Parkager"
+    under Guidance of his teacher Mr. GAURAV TAK. Currently he is also working on some of the others projects in PHP,.NET....</string>
+
+</resources>

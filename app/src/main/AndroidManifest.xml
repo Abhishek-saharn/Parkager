@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abhisheksaharn.parkager" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Parkager"
+            android:label="@string/title_activity_splash"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DataTable"
+            android:label="@string/title_activity_data_table"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NavigationDrawerFragment"
+            android:label="@string/title_activity_navigation_drawer_fragment"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CheckIn"
+            android:label="@string/title_activity_check_inn"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SearchByName"
+            android:label="@string/title_activity_search_by_name"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CheckOut"
+            android:label="CheckOut"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SearchResult"
+            android:label="@string/title_activity_search_result"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AfterItemClick"
+            android:label="@string/title_activity_after_item_click"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Reports"
+            android:label="@string/title_activity_reports"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".AboutDev"
+            android:label="@string/title_activity_about_dev" >
+        </activity>
+    </application>
+
+</manifest>

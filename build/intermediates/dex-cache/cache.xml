@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Abhishek Saharn\AndroidStudioProjects\Parkager2\app\build\intermediates\exploded-aar\com.oguzdev\CircularFloatingActionMenu\1.0.2\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="607d961caf1a59b6e782724654c1f3229e036c20">
+        <dex dex="C:\Users\Abhishek Saharn\AndroidStudioProjects\Parkager2\app\build\intermediates\pre-dexed\debug\classes-871a13c65631f0ef4d3f43af4d6cf5dcc1faefaf.jar" />
+    </item>
+    <item
+        jar="C:\Users\Abhishek Saharn\AndroidStudioProjects\Parkager2\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="C:\Users\Abhishek Saharn\AndroidStudioProjects\Parkager2\app\build\intermediates\pre-dexed\debug\classes-caa04c977b71a7506954811e4b280460d92163ca.jar" />
+    </item>
+    <item
+        jar="C:\Users\Abhishek Saharn\AndroidStudioProjects\Parkager2\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\Abhishek Saharn\AndroidStudioProjects\Parkager2\app\build\intermediates\pre-dexed\debug\classes-00aa1c110aec317475d1676039959852237c229a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Abhishek Saharn\AndroidStudioProjects\Parkager2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Users\Abhishek Saharn\AndroidStudioProjects\Parkager2\app\build\intermediates\pre-dexed\debug\classes-8ef134724433f3d47a088ac315b2e1ec22b52327.jar" />
+    </item>
+    <item
+        jar="C:\Users\Abhishek Saharn\AndroidStudioProjects\Parkager2\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\Abhishek Saharn\AndroidStudioProjects\Parkager2\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-91478aace08f90d5dcafce1b65c4462f01a921be.jar" />
+    </item>
+    <item
+        jar="C:\Users\Abhishek Saharn\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="C:\Users\Abhishek Saharn\AndroidStudioProjects\Parkager2\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-971bfe9596e245d36eae240cb78d7aa3fd1525b4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Abhishek Saharn\AndroidStudioProjects\Parkager2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="C:\Users\Abhishek Saharn\AndroidStudioProjects\Parkager2\app\build\intermediates\pre-dexed\debug\classes-84b2c97810d418e9805cdd8afcae2dcc4c67304f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Abhishek Saharn\AndroidStudioProjects\Parkager2\app\build\intermediates\exploded-aar\com.github.shell-software\fab\1.0.5\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="21b7e1533326a38d45ea24d04c6acfcbf8ea33af">
+        <dex dex="C:\Users\Abhishek Saharn\AndroidStudioProjects\Parkager2\app\build\intermediates\pre-dexed\debug\classes-a644d283b8bd03da47a3e752559f9ef942880e7d.jar" />
+    </item>
+
+</items>

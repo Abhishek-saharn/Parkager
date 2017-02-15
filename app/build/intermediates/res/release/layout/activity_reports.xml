@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abhisheksaharn.parkager.Reports">
+
+    <include
+        android:id="@+id/app_bar7"
+        layout="@layout/app_bar" />
+
+    <RelativeLayout
+        android:id="@+id/main_relative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/app_bar7">
+
+        <RelativeLayout
+            android:id="@+id/reportLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/teal"
+            android:paddingLeft="20dp">
+
+            <TextView
+                android:id="@+id/tvFrom"
+                android:layout_width="wrap_content"
+                android:textColor="@color/accentColor"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="From" />
+
+            <EditText
+                android:id="@+id/etFrom"
+                android:layout_below="@+id/tvFrom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:ems="10"
+                android:inputType="date" />
+            <TextView
+                android:id="@+id/tvTo"
+                android:textColor="@color/accentColor"
+                android:layout_below="@+id/etFrom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="To " />
+
+            <EditText
+                android:id="@+id/etTo"
+                android:layout_width="wrap_content"
+
+                android:layout_below="@+id/tvTo"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:ems="10"
+                android:inputType="date" />
+
+
+
+
+        </RelativeLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:text="Show"
+            android:textColor="@color/teal"
+            android:layout_marginTop="150dp"
+            android:id="@+id/BShow"
+
+            android:background="@drawable/button_style"
+            android:layout_alignParentRight="true"/>
+
+        <ListView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/reportListView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/reportLinear" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Abhishek%20Saharn/AndroidStudioProjects/Parkager2/app/src/main/res/layout/activity_reports.xml -->
